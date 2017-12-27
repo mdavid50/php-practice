@@ -25,7 +25,7 @@ class Admin extends User {
 
     //create a method to say hello
     public function sayHello() {
-        return "hello admin," . $this-> getUserName();
+        return "hello admin, " . $this-> getUserName();
  }
 }
 
