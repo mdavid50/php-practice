@@ -10,7 +10,7 @@ echo "$twinkle $twinkle little $star<br/>";
 $star = "rock";
 $twinkle = "cow time";
 
-echo "$twinkle $twinkle little $star<br/>"
+echo "$twinkle $twinkle little $star<br/>";
 
 
 // arithmetic operators and variables
