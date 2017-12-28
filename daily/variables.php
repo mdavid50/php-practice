@@ -36,16 +36,16 @@ echo "$x % $y = $result<br/>";
 $num = 8;
 echo "value is now $num";
 
-$num + = 2;
+$num += 2;
 echo "value is now $num";
 
-$num - = 4;
+$num -= 4;
 echo "calue is now $num";
 
-$num * = 5;
+$num *= 5;
 echo "value is now $num";
 
-$num / = 3;
+$num /= 3;
 echo "value is now $num";
 
 $num ++;
