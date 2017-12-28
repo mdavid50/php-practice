@@ -36,4 +36,32 @@ for ($x='A'; $x<='G'; $x ++){
     echo "<li> Item $x</li>\n";
 }
 
+echo "\n";
+echo "\n";
+
+for ($x=1; $x<=12; $x++){
+    $result = $x * $x;
+    echo "$x * $x = $result\n";
+}
+
+echo "\n";
+echo "\n";
+
+//Generate an HTML table
+echo "<table border=\"1\">";
+
+//Generate table data showing the numbers 1-7 multiplied by each other,
+//starting with the rows.
+for ($row=1; $row<=7; $row++){
+    echo "<tr>\n";
+    //Generate each entry in the row to create the columns.
+    for ($col=1; $col<=7; $col++){
+        //First, do the math.
+        $x=$col * $row;
+        //Then send the value to the table with the table data tags.
+        echo "<td>$x</td>\n";
+    }
+    echo "</tr>";
+}
+echo "</table>";
 ?>
