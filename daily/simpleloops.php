@@ -8,23 +8,32 @@ while ($num<=9){
     // increase num by 1
     $num ++;
 }
+echo "\n";
+echo "\n";
 
 
-$num = 1;
+$num = 0;
 
 //create a loop to echo xyz 9 times
-while ($num<=9){
+do {
+    $num ++;
     echo "xyz ";
-    // increase num by 1
-    $num ++;
 }
+while ($num<9);
 
-$num = 1;
+echo "\n";
+echo "\n";
 
-//create a loop to echo num
-while ($num<=9){
+//create a for loop to echo num
+for ($num=1; $num<=9; $num++){
     echo "$num ";
-    // increase num by 1
-    $num ++;
 }
+echo "\n";
+echo "\n";
+
+// create a for loop returning items a - g
+for ($x='A'; $x<='G'; $x ++){
+    echo "<li> Item $x</li>\n";
+}
+
 ?>
