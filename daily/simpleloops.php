@@ -64,4 +64,14 @@ for ($row=1; $row<=7; $row++){
     echo "</tr>";
 }
 echo "</table>";
+
+for($x=0; $x<=100; $x++){
+    if ($x % 3 == 0 && $x % 5){
+        echo "BRAAP";
+    }else if ($x % 3 == 0){
+        echo "ba";
+    }else if ($x % 5 == 0){
+        echo "br";
+    }
+}
 ?>
