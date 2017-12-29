@@ -51,4 +51,10 @@ foreach ($cities as $city){
 }
 
 
+
+public function hello(){
+    echo "Hello, World";
+}
+hello();
+
 ?>
