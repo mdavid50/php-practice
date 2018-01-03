@@ -5,3 +5,22 @@ console.log( b );
 
 age = prompt("please tell me your age:");
 console.log( age );
+
+a = 2;
+b = a + 2;
+
+var a = 2;
+a = a + 1;
+a = a *2;
+console.log( a );
+
+
+var amount = 99.99;
+// change amount * 2
+amount = amount * 2;
+//return
+console.log( amount );
+//make it human worthy
+amount = "$" + String( amount );
+//return
+console.log( amount );
