@@ -12,13 +12,13 @@ var amount = 99.99;
 
 amount = amount * 2;
 
-// check if we can afford the transaction
+// check if we can afford the transaction, then reply yes if true
 if ( amount < bank_balance) {
     console.log( "I'll take the accessory!");
     amount = amount + ACCESSORY_PRICE;
 }
 
-// if we can't afford it
+// if we can't afford it print no response
 else {
     console.log( "No, thanks.");
 }
