@@ -22,3 +22,53 @@ if ( amount < bank_balance) {
 else {
     console.log( "No, thanks.");
 }
+
+
+/**
+ * IF ELSE
+ **/
+
+if (a == 2) {
+    console.log("num 2")
+}
+else if (a == 10){
+    console.log("num 10")
+}
+else if (a == 42){
+    console.log("meaning of life")
+}
+else {
+    console.log("you have no meaning, lol!")
+}
+
+/**
+ * SWITCH
+ **/
+
+switch (a){
+    case 2:
+        console.log("num 2");
+            break;
+    case 10:
+        console.log("num 2");
+        break;
+
+    case 42:
+        console.log("meaning of life");
+        break;
+
+    default:
+        console.log("you have no meaning, lol!")
+}
+
+switch (a){
+    case 2:
+    case 10:
+        console.log("some cool stuff");
+        break;
+    case 42:
+        console.log("still the meaning of life");
+        break;
+    default:
+        console.log("still no meaning")
+}
