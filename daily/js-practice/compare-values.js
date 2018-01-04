@@ -27,3 +27,26 @@ a;
 
 // return b
 b;
+
+
+/**
+ *TRUTHY FALSY
+ * anything negative is generally falsy ie "", null, undefined, false, 0, -0, NaN
+ *
+ * any other is truthy ie true, number, string, arrays[], objects{}, functions(){}
+ **/
+
+
+/**
+ * EQUALITY
+ **/
+
+//set var a to string 42
+var a = "42";
+
+//set var b to number 42
+var b = 42;
+
+a == b; //will return true
+
+a ===b; //will return false
