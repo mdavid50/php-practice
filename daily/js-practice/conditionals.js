@@ -72,3 +72,24 @@ switch (a){
     default:
         console.log("still no meaning")
 }
+
+/**
+ * CONDITIONAL OPERATOR AKA TERNARY OPERATOR
+ **/
+
+var a = 42;
+
+var b = (a > 41) ? "meaning of life" : "no meaning";
+    /**
+     * this replaces a whole if else statement!!
+     * if (a > 41) {
+     *  b = "hello";
+     * }
+     * else {
+     *  b = "world";
+     * }
+     **/
+
+
+
+
