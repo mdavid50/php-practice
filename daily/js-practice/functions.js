@@ -41,3 +41,18 @@ amount = calculateFinalPurchaseAmount(amount);
 
 //return the amount with tax
 console.log( amount.toFixed(2));
+
+
+// new function foo
+function foo() {
+    return 42;
+}
+
+foo.bar = "hello world";
+
+typeof foo;
+
+typeof foo();
+
+typeof foo.bar;
+
