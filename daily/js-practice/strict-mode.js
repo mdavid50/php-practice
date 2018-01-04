@@ -1,7 +1,7 @@
 /**
  * safe mode keeps the code in a safer and more appropriate set of guidelines
  * it is also more optimizable by the engine
- */
+ **/
 
 
 //strict mode inside a function

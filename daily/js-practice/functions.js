@@ -56,3 +56,18 @@ typeof foo();
 
 typeof foo.bar;
 
+
+/**
+ * FUNCTIONS AS VALUES
+ * functions are basically variables. they contain a set of values but can be a value itself
+ */
+
+//anonymous... it has no name
+var foo = function (){
+    //..
+};
+
+//named bar. --this is preferable--
+var x = function bar() {
+
+}
