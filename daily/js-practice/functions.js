@@ -113,7 +113,7 @@ function makeAdder(x) {
 //an inner function will then use the var x, it remembers it or has closure over it
     function add(y) {
         return y + x;
-    };
+    }
 
     return add;
 }
@@ -122,9 +122,9 @@ var plusOne = makeAdder(1);
 
 var plusTen = makeAdder(10);
 
-plusOne( 3 ); // remembers the x or (1) from plusOne and used ( 3 ) as y --= 4 --
-plusOne( 41 );// remembers the x or (1) from plusONe and used ( 41 ) as y --= 42--
+plusOne( 3 ); // remembers the x or (1) from plusOne and used ( 3 ) as y -- = 4 --
+plusOne( 41 );// remembers the x or (1) from plusONe and used ( 41 ) as y -- = 42 --
 
-plusTen( 13 );// remembers the x or (10) from plusTen and used ( 13 ) as y --= 23--
+plusTen( 13 );// remembers the x or (10) from plusTen and used ( 13 ) as y -- = 23 --
 
 
