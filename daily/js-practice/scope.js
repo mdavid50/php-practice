@@ -68,3 +68,19 @@ function foo() {
 }
 
 foo(); // solution is to declare i a var so it can change as needed.
+
+
+
+//FUNCTIONS AS SCOPE
+
+var a = 2;
+
+function foo() {
+
+    var a = 3;
+    console.log(a);// 3
+
+}
+foo();
+
+console.log(a);// 2
