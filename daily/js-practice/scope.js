@@ -32,3 +32,23 @@ function outer() {
 }
 
 outer();
+
+
+/**
+ *Hiding
+ * this is the proper way to enclose variables. it shows the least possible to the rest of the functions
+ */
+
+function doSomething(a) {
+    function doSomethingElse(a) {
+        return a -1;
+    }
+
+    var b;
+
+    b = a + doSomethingElse(a*2);
+
+    console.log(b*3);
+}
+
+doSomething(2); // 15
