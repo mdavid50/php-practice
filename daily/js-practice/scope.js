@@ -84,3 +84,10 @@ function foo() {
 foo();
 
 console.log(a);// 2
+
+
+// Anonymous vs Named -- Named is better in case you would like to recall the function
+
+setTimeout( function  timeoutHandler() { // this is named time out handler
+    console.log( "I waited 1 second!");
+}, 1000 );
