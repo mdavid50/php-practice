@@ -52,3 +52,19 @@ function doSomething(a) {
 }
 
 doSomething(2); // 15
+
+
+//reasons for hiding variables are also good for collision avoidance
+
+function foo() {
+    function bar(a) {
+        i = 3; // this will reset i back to 3 every time the a loop is run -- NOT GOOD--
+        console.log( a + i );
+    }
+
+    for (var i=o; i<10; i++) {
+        bar( i * 2);// creates an infinite loop. i will always be rest to 3
+    }
+}
+
+foo(); // solution is to declare i a var so it can change as needed.
