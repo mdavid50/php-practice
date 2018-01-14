@@ -54,7 +54,7 @@ function doSomething(a) {
 doSomething(2); // 15
 
 
-//reasons for hiding variables are also good for collision avoidance
+//reasons for hiding variables are also good for COLLISION AVOIDANCE
 
 function foo() {
     function bar(a) {
@@ -91,3 +91,7 @@ console.log(a);// 2
 setTimeout( function  timeoutHandler() { // this is named time out handler
     console.log( "I waited 1 second!");
 }, 1000 );
+
+
+
+//Invoking Function Expressions Immediately
