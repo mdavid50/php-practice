@@ -95,3 +95,10 @@ setTimeout( function  timeoutHandler() { // this is named time out handler
 
 
 //Invoking Function Expressions Immediately
+var a = 2;
+(function IIFE() {
+    var a = 3;
+    console.log( a ); // 3
+})();
+
+console.log( a ); // 2
