@@ -129,3 +129,18 @@ catch (err) {
 }
 
 console.log(err); // reference error: 'err' not found
+
+
+// LET
+
+var foo = true;
+
+if (foo) {
+    { // <-- explicit block!!! hooray!
+        let bar = foo * 2;
+        bar = something( bar );
+        console.log( bar );
+    }
+}
+
+console.log( bar ); // Reference Error
