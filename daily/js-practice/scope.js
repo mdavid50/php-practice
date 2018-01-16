@@ -112,3 +112,10 @@ var a = 2;
 })(window);
 
 console.log( a ); // 2
+
+
+
+/**
+ * BLOCK AS SCOPES
+ **/
+
