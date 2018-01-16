@@ -133,6 +133,20 @@ console.log(err); // reference error: 'err' not found
 
 // LET
 
+// implicit block
+var foo = true;
+
+if (foo) {
+    let bar = foo * 2;
+    bar = something( bar );
+    console.log( bar );
+}
+
+console.log( bar ); // reference error
+
+
+//explicit block
+
 var foo = true;
 
 if (foo) {
