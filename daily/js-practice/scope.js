@@ -119,3 +119,13 @@ console.log( a ); // 2
  * BLOCK AS SCOPES
  **/
 
+// TRY/CATCH
+
+try {
+    undefined(); // illegal operation to force and exception!!
+}
+catch (err) {
+    console.log( err ); // works!
+}
+
+console.log(err); // reference error: 'err' not found
