@@ -213,3 +213,19 @@ console.log( i ); // ReferenceError
         console.log( i );
     }
 }
+
+
+// CONST  -- sets a block-scoped variable that can not be changed--
+
+var foo = true;
+
+if (foo) {
+    var a = 2;
+    const b = 3; // block-scoped to the containing 'if'
+
+    a = 3; // just fine!
+    b = 4; // error!
+}
+
+console.log( a ); //3
+console.log( b ); // ReferenceError!!
