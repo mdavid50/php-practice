@@ -158,3 +158,21 @@ if (foo) {
 }
 
 console.log( bar ); // Reference Error
+
+
+
+// GARBAGE COLLECTION
+
+function process(data) {
+    // do something interesting
+}
+
+var someReallyBigData = { . . };
+
+process( someReallyBigData );
+
+bar btn = document.getElementById( "my_button"):
+
+btn.addEventListener("click", function click(evt) {
+    console.log("button clicked");
+}, /*capturingPhase=*/false);
