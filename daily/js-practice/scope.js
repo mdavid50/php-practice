@@ -169,7 +169,7 @@ function process(data) {
 
 var someReallyBigData = { . . };
 
-process( someReallyBigData );
+process( someReallyBigData ); // not really needed but js will try to hold on to it.
 
 bar btn = document.getElementById( "my_button"):
 
