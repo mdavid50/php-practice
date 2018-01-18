@@ -171,7 +171,7 @@ var someReallyBigData = { . . };
 
 process( someReallyBigData ); // not really needed but js will try to hold on to it.
 
-bar btn = document.getElementById( "my_button"):
+bar btn = document.getElementById( "my_button");
 
 btn.addEventListener("click", function click(evt) {
     console.log("button clicked");
