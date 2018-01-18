@@ -205,7 +205,7 @@ for (let i=0; i<0; i++){
 
 console.log( i ); // ReferenceError
 
-// let will be confine to the for loop but will remember the var for each iteration
+// let will be confine to the for loop but will remember the var for each iteration aka *pre-iteration binding*
 {
     let j;
     for (j=0; j<10; j++){
