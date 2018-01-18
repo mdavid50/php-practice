@@ -196,3 +196,20 @@ var btn = document.getElementById("my_button");
 btn.addEventListener("click", function click(evt){
     console.log("button clicked");
 }, /*capturingPhase=*/ false );
+
+// lET LOOPS
+
+for (let i=0; i<0; i++){
+    console.log( i );
+}
+
+console.log( i ); // ReferenceError
+
+// let will be confine to the for loop but will remember the var for each iteration
+{
+    let j;
+    for (j=0; j<10; j++){
+        let i = j; // re-bound for each iteration!
+        console.log( i );
+    }
+}
