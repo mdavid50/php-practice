@@ -84,4 +84,7 @@ foo = function (){
 };
 
 
-
+/*
+ * To be more specific, function declarations and variable declarations are hoisted. However functions are hoisted
+ * first. Then variables.
+ */
