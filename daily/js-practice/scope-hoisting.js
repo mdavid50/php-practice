@@ -88,3 +88,28 @@ foo = function (){
  * To be more specific, function declarations and variable declarations are hoisted. However functions are hoisted
  * first. Then variables.
  */
+
+
+foo();
+
+var foo;
+
+function foo(){
+    console.log( 1 );
+}
+
+foo = function() {
+    console.log(2)
+};
+
+// 1 is printed instead of 2. the Engine sees this as...
+
+function() {
+    console.log(1);
+}
+
+foo();
+
+foo = function(){
+    console.log( 2 );
+};
