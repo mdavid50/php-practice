@@ -104,7 +104,7 @@ foo = function() {
 
 // 1 is printed instead of 2. the Engine sees this as...
 
-function() {
+function foo() {
     console.log(1);
 }
 
