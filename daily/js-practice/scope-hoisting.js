@@ -113,3 +113,18 @@ foo(); // will return 1
 foo = function(){
     console.log( 2 );
 };
+
+
+foo(); // 3  this shows you that it is a bad idea to share multiple var declarations. it can lead to unwanted results
+
+function foo(){
+    console.log( 1 );
+}
+
+var foo = function(){
+    console.log(2);
+};
+
+function foo(){
+    console.log(3);
+}
