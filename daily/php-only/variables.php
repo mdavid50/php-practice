@@ -40,7 +40,7 @@ $num += 2;
 echo "value is now $num";
 
 $num -= 4;
-echo "calue is now $num";
+echo "value is now $num";
 
 $num *= 5;
 echo "value is now $num";
